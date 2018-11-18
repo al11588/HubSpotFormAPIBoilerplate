@@ -13,8 +13,6 @@ I created a boilerplate code that uses my Flask boilerplate and uses the [HubSpo
 
 *	**Python Packages Used**: Flask.
 
-*	**Analytics Used**: [HubSpot Analytics].
-
 # How To Run Locally:
 
 *	**Install**: Python 3.
