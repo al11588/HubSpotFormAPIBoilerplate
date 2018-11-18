@@ -4,7 +4,29 @@
 
 I created a boilerplate code that uses my Flask boilerplate and uses the [HubSpot Form API] . 
 
-In index.html on the form tag that says edit change `https://forms.hubspot.com/uploads/form/v2/:portal_id/:form_guid` with your credentials after creating your API form on [HubSpot Form API] .
+In the index.html on the form tag that says edit change `https://forms.hubspot.com/uploads/form/v2/:portal_id/:form_guid` with your credentials after creating your API form on [HubSpot Form API] .
+
+# Form input id's:
+
+1. `id=firstname`
+
+2. `id=lastname`
+
+3. `id=streetaddress`
+
+4. `id=mobilephonenumber`
+
+5. `id=email`
+
+6. `id=companyname`
+
+7. `id=phonenumber`
+
+8. `id=state/region`
+
+9. `id=country`
+
+10. `id=city`
 
 # Use:
 
