@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Flask Boilerplate using the HubSpot Form API</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+<div>
+	<form class="form-horizontal" accept-charset=utf-8 action=" https://forms.hubspot.com/uploads/form/v2/:portal_id/:form_guid" method="post">
+<fieldset>
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="firstname">First name:</label>  
+  <div class="col-md-4">
+  <input id="firstname" name="firstname" type="text" placeholder="Required" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="lastname">Last name:</label>  
+  <div class="col-md-4">
+  <input id="lastname" name="lastname" type="text" placeholder="Required" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="streetaddress">Street Address:</label>  
+  <div class="col-md-4">
+  <input id="streetaddress" name="streetaddress" type="text" placeholder="Required" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="mobilephonenumber">Mobile phone number:</label>  
+  <div class="col-md-4">
+  <input id="mobilephonenumber" name="mobilephonenumber" type="text" placeholder="Required" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="email">Email:</label>  
+  <div class="col-md-4">
+  <input id="email" name="email" type="text" placeholder="Required" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="companyname">Company name:</label>  
+  <div class="col-md-4">
+  <input id="companyname" name="companyname" type="text" placeholder="Required" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="phonenumber">Phone Number:</label>  
+  <div class="col-md-4">
+  <input id="phonenumber" name="phonenumber" type="text" placeholder="Required" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="state/region">State/Region:</label>  
+  <div class="col-md-4">
+  <input id="state/region" name="state/region" type="text" placeholder="Required" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="country">Country:</label>  
+  <div class="col-md-4">
+  <input id="country" name="country" type="text" placeholder="Required" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="city">City:</label>  
+  <div class="col-md-4">
+  <input id="city" name="city" type="text" placeholder="Required" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit">Submit</label>
+  <div class="col-md-4">
+    <button id="submit" name="submit" class="btn btn-success">Submit</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+</div>
+<script type="text/javascript" src="{{ url_for('static', filename='js/app.js') }}">
+</script>
+<script type="css" src="{{ url_for('static', filename='css/style.css') }}"></script>
+</body>
+</html>
